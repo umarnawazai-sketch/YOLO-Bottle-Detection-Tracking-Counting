@@ -35,16 +35,3 @@ Note: To switch between local video and live webcam, edit line 7 in bottle_track
 Local video: cap = cv2.VideoCapture("bootle_tracking.mp4")
 
 Live webcam: cap = cv2.VideoCapture(0)
-
-
----
-
-### What to do next:
-
-1. Open `README.md` in VS Code or Notepad, paste the code above, and **save the file**.
-2. Run these commands in your Git Bash terminal to send it to GitHub:
-
-```bash
-git add README.md
-git commit -m "Complete README documentation"
-git push origin main
